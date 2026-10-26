@@ -1,0 +1,10 @@
+term: churn
+status: ruled
+meaning: An account whose contracted term ended in the period.
+ruled:
+  decision: accepted
+  by: expert:ana
+  date: "2026-10-26"
+  reason: Matches how finance closes the month.
+  proposal: 0190f3b4-7c1e-7a2b-9c3d-aaaaaaaaaaa2
+  revision: 1
