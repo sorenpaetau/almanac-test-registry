@@ -1,0 +1,17 @@
+meaning: active-customer-product
+status: ruled
+definition: An account where someone signed in within the last 30 days.
+context: product
+owner: head of product
+names:
+  - word: active customer
+    status: preferred
+not_the_same_as:
+  - active-customer-billing
+ruled:
+  decision: accepted
+  by: owner:head-of-product
+  date: "2026-10-26"
+  reason: Matches how finance closes the month.
+  proposal: 0190f3b4-7c1e-7a2b-9c3d-aaaaaaaaaaa4
+  revision: 1

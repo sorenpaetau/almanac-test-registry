@@ -1,0 +1,21 @@
+meaning: active-customer-billing
+status: ruled
+definition: An account with a paid invoice in the current calendar month.
+context: billing
+owner: head of finance
+names:
+  - word: active customer
+    status: preferred
+  - word: paying customer
+    status: accepted
+not_the_same_as:
+  - active-customer-product
+used_by:
+  - monthly revenue dashboard
+ruled:
+  decision: accepted
+  by: owner:head-of-finance
+  date: "2026-10-26"
+  reason: Matches how finance closes the month.
+  proposal: 0190f3b4-7c1e-7a2b-9c3d-aaaaaaaaaaa3
+  revision: 1
